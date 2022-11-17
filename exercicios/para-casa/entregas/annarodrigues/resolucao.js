@@ -21,7 +21,7 @@ var menu = [{
 }];
 
 function returnMenu(){
-    var returnMenu = confirm("Deseja retornar ao menu?");
+    let returnMenu = confirm("Deseja retornar ao menu?");
         if(returnMenu == true){
             offerMenu();
         }
@@ -31,7 +31,7 @@ function returnMenu(){
     }
 
 function offerMenu() {
-    var choose = Number(prompt(`Informe o numero que deseja informações:
+    let choose = Number(prompt(`Informe o numero que deseja informações:
     1- ${menu[0].name}
     2- ${menu[1].name}
     3- ${menu[2].name}`)
