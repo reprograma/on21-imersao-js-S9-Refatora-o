@@ -1,56 +1,65 @@
-//Exercicio para a Sala - Refatore o código abaixo:
-var menu = [{
+//Exercício para a Sala - Refatore o código abaixo:
+let menuDrinks = [
+  {
     id: 1,
-    nome: "Refrigerante",
-    preco: 3.50,
-    sabor: "Morango",
-    marca: "RefriKeylinha",
-    bio: `Nome: ${menu[0].nome}
-    Preço: ${menu[0].preco}
-    Sabor: ${menu[0].sabor}
-    Marca: ${menu[0].marca}`
-},
-{
+    name: 'Refrigerante',
+    price: 3.5,
+    flavor: 'Morango',
+    brand: 'RefriKeylinha',
+    bio: `Nome: ${menuDrinks[0].name}
+    Preço: ${menuDrinks[0].price}
+    Sabor: ${menuDrinks[0].flavor}
+    Marca: ${menuDrinks[0].brand}`,
+  },
+  {
     id: 2,
-    nome: "Suco",
-    preco: 2.50,
-    sabor: "Uva",
-    marca: "SuquinhoKeylinha",
-    bio: `Nome: ${menu[1].nome}
-    Preço: ${menu[1].preco}
-    Sabor: ${menu[1].sabor}
-    Marca: ${menu[1].marca}`
-},
-{
+    name: 'Suco',
+    price: 2.5,
+    flavor: 'Uva',
+    brand: 'SuquinhoKeylinha',
+    bio: `Nome: ${menuDrinks[1].name}
+    Preço: ${menuDrinks[1].price}
+    Sabor: ${menuDrinks[1].flavor}
+    Marca: ${menuDrinks[1].brand}`,
+  },
+  {
     id: 3,
-    nome: "Chá",
-    preco: 3.00,
-    sabor: "Mate",
-    marca: "MateKeylinha",
-    bio: `Nome: ${menu[2].nome}
-    Preço: ${menu[2].preco}
-    Sabor: ${menu[2].sabor}
-    Marca: ${menu[2].marca}`
-}];
+    name: 'Chá',
+    price: 3.0,
+    flavor: 'Mate',
+    brand: 'MateKeylinha',
+    bio: `Name: ${menuDrinks[2].name}
+    Price: ${menuDrinks[2].price}
+    Flavor: ${menuDrinks[2].flavor}
+    Brand: ${menuDrinks[2].brand}`,
+  },
+];
 
 function ofertaMenu() {
-    var escolha = Number(prompt(`Informe o numero que deseja informações:
+  let choiceDrink = Number(
+    prompt(`Informe o número da bebida que deseja informações:
     1- Refrigerante
     2- Suco
-    3- Chá`));
+    3- Chá `)
+  );
 
-    switch (escolha) {
-        case 1: alert(menu[0].bio);
-            break;
-        case 2: alert(menu[1].bio);
-            break;
-        case 3: alert(menu[2].bio);
-            break;
-
-    }
+  switch (choiceDrink) {
+    case 1:
+      alert(menuDrinks[0].bio);
+      break;
+    case 2:
+      alert(menuDrinks[1].bio);
+      break;
+    case 3:
+      alert(menuDrinks[2].bio);
+      break;
+    default:
+      console.log('Try again');
+      break;
+  }
 }
 ofertaMenu();
-var retornaMenu = confirm("Deseja retornar ao menu?");
-    while(retornaMenu == true){
-        ofertaMenu();
+let retornaMenu = confirm('Deseja retornar ao menu?');
+while (retornaMenu == true) {
+  ofertaMenu();
 }
