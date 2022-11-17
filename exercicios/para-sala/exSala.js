@@ -1,45 +1,42 @@
 //Exercicio para a Sala - Refatore o código abaixo:
-var menu = [{
+const drinkMenu = [{
     id: 1,
-    nome: "Refrigerante",
-    preco: 3.50,
-    sabor: "Morango",
-    marca: "RefriKeylinha",
-    bio: `Nome: ${menu[0].nome}
-    Preço: ${menu[0].preco}
-    Sabor: ${menu[0].sabor}
-    Marca: ${menu[0].marca}`
+    name: "Refrigerante",
+    price: 3.50,
+    taste: "Morango",
+    brand: "RefriKeylinha",
+    bio: `Nome: ${this.name}
+    Preço: ${this.price}
+    Sabor: ${this.taste}
+    Marca: ${this.brand}`
 },
 {
     id: 2,
-    nome: "Suco",
-    preco: 2.50,
-    sabor: "Uva",
-    marca: "SuquinhoKeylinha",
-    bio: `Nome: ${menu[1].nome}
-    Preço: ${menu[1].preco}
-    Sabor: ${menu[1].sabor}
-    Marca: ${menu[1].marca}`
+    name: "Suco",
+    price: 2.50,
+    taste: "Uva",
+    brand: "SuquinhoKeylinha",
+    bio: `Nome: ${this.name}
+    Preço: ${this.price}
+    Sabor: ${this.taste}
+    Marca: ${this.brand}`
 },
 {
     id: 3,
-    nome: "Chá",
-    preco: 3.00,
-    sabor: "Mate",
-    marca: "MateKeylinha",
-    bio: `Nome: ${menu[2].nome}
-    Preço: ${menu[2].preco}
-    Sabor: ${menu[2].sabor}
-    Marca: ${menu[2].marca}`
+    name: "Chá",
+    price: 3.00,
+    taste: "Mate",
+    brand: "MateKeylinha",
+    bio: `Nome: ${this.name}
+    Preço: ${this.price}
+    Sabor: ${this.taste}
+    Marca: ${this.brand}`
 }];
 
-function ofertaMenu() {
-    var escolha = Number(prompt(`Informe o numero que deseja informações:
-    1- Refrigerante
-    2- Suco
-    3- Chá`));
+function openMenu() {
+    let choice = Number(prompt("Informe o numero que deseja informações:\n 1- Refrigerante\n 2- Suco\n 3- Chá" ));
 
-    switch (escolha) {
+    switch (choice) {
         case 1: alert(menu[0].bio);
             break;
         case 2: alert(menu[1].bio);
@@ -49,8 +46,8 @@ function ofertaMenu() {
 
     }
 }
-ofertaMenu();
-var retornaMenu = confirm("Deseja retornar ao menu?");
-    while(retornaMenu == true){
-        ofertaMenu();
-}
+openMenu();
+let backToMenu = confirm("Deseja retornar ao menu?");
+    while(backToMenu == true){
+        openMenu();
+    }
