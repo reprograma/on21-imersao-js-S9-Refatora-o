@@ -30,7 +30,7 @@ let menuDrink = [
 
   {
     id: 4,
-    Final: "Sair",
+    Final: "Go out",
   },
 ];
 
@@ -40,7 +40,7 @@ function menuAvailable() {
       1- Soda
       2- Juice
       3- Tea
-      4 - Sair`)
+      4 - Go out`)
   );
 
   switch (select) {
