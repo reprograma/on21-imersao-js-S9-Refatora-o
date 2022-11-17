@@ -1,8 +1,7 @@
 O que eu mudei no código:
 
 - Mudei todas as variáveis var pra let
-- Substitui o switch case por um if/else
-- Criei uma função que renderiza mais detalhes opção escolhida do usuário
+- Criei uma função que renderiza mais detalhes da opção escolhida do usuário
 - Criei uma função para retornar ao menu
 - Deixei apenas um comentário pra facilitar o entendimento de quem for ler o código.
 - Mudei o nome do array menu
