@@ -27,6 +27,11 @@ let menuDrink = [
     flavor: "Fennel",
     brand: "FennelMiza",
   },
+
+  {
+    id: 4,
+    Final: "Sair",
+  },
 ];
 
 function menuAvailable() {
@@ -34,7 +39,8 @@ function menuAvailable() {
     prompt(`Select the desired number: 
       1- Soda
       2- Juice
-      3- Tea`)
+      3- Tea
+      4 - Sair`)
   );
 
   switch (select) {
