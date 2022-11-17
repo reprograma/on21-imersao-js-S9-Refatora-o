@@ -33,10 +33,21 @@ Pense sempre na entrada, processamento e saída para que você possa montar uma 
 Alterações ou ajustes? Refatoração se implica em otimizar e melhorar um código fonte existente funcional, ou seja, um código que funcione corretamente. 
 
 Por que não refatoramos códigos incorretos? Com por exemplo Abusos de OO?
+Porque no caso o ideal não seria refatorar e sim alterar o código. Se apenas refatorar você vai persistir com o erro.
+
 Se um código se demonstra incompleto, por mais que funcione grande parte, o que devemos fazer?
+Informar que o código não está funcionando, que primeiro o código deve ser corrigido.
+
 Ao decorrer da refatoração você se depara com um processo muito complexo que não poderia otimizar, qual a melhorar maneira de prosseguir?
+Identificar o que eu conheço e o que eu não conheço. Pedir ajuda.
+
 Como diferenciamos refatoração em linguagens back-end e front-end?
+A refatoração é para ambos, porém no front end vc está lidando diretamento com o que o usuário ver e deve se ter um cuidado ainda maior para
+que o usuário final não perceba visualmente.
+
 Podemos dividir a tarefa de refatorar um código?
+
+Acredito que sim
 
 
 PARA O LAR -

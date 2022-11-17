@@ -1,0 +1,11 @@
+Pontos refatorados:
+
+- troca das variáveis var por const;
+ex: <var escolha> por  <const choose>
+
+- organização do código;
+
+- o código foi passado para o idioma inglês;
+
+- alteração dos nomes das variáveis e funções para nomes que façam mais sentido no contexto ao qual foram empregados.
+ex: <var menu> por <const fixedListDrinks>
