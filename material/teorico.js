@@ -45,3 +45,27 @@ Vamos refatorar em sala o projeto do módulo 7. Salve o antigo projeto e identif
 
 
 */
+
+
+/* 1- Por que não refatoramos códigos incorretos? Com por exemplo Abusos de OO?
+Pois o que não esta funcionando, não se refatora e sim corrigir.
+Pois temos que garantir que o código esteja funcionando para refatorar.
+
+
+2- Se um código se demonstra incompleto, por mais que funcione grande parte, o que devemos fazer?
+é necessário fazer a correção antes.
+Entender as entradas, processamentos e saídas para assim podermos refatorar.
+
+3- Ao decorrer da refatoração você se depara com um processo muito complexo que não poderia otimizar, qual a melhorar maneira de prosseguir?
+identificar o que eu conheço, listar o que não conheço e pesquisar na doc.
+Pedir ajuda.
+Manter do jeito que está.
+
+4- Como diferenciamos refatoração em linguagens back-end e front-end?
+front - aplicação de semantica
+
+
+5- Podemos dividir a tarefa de refatorar um código?
+sim!
+
+*/
