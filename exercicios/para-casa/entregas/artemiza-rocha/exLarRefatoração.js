@@ -24,13 +24,20 @@ var menu = [
     sabor: "Mate",
     marca: "MateKeylinha",
   },
+
+{
+    id: 4,
+    Final: "go out",
+  },
+
 ];
 function ofertaMenu() {
   var escolha = Number(
     prompt(`Informe o numero que deseja informações:
     1- Refrigerante
     2- Suco
-    3- Chá`)
+    3- Chá
+    4- Go out`)
   );
 
   switch (escolha) {
