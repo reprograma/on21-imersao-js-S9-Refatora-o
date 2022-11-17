@@ -7,6 +7,9 @@ O código sofre grandes alterações ao longo do tempo, alterações capazes de 
 O processo de refatoração é uma otimização. Precisamos sempre pensar em código para melhorar a sua conformidade com padrões e a legibilidade.
 
 OBS: A refatoração visa apenas à melhoria interna do código fonte.
+Melhoria = Aplicação de algo novo que tende a  melhorar o processo ou software.
+
+Refatoração  Não ALTERA o produto final (software/aplicação).
 
 Por que refatorar?
 Refatorar o software é uma técnica que pode, e deve, ser utilizada por diversas razões. Vejamos algumas delas:
@@ -32,16 +35,54 @@ Pense sempre na entrada, processamento e saída para que você possa montar uma 
 
 Alterações ou ajustes? Refatoração se implica em otimizar e melhorar um código fonte existente funcional, ou seja, um código que funcione corretamente. 
 
-Por que não refatoramos códigos incorretos? Com por exemplo Abusos de OO?
-Se um código se demonstra incompleto, por mais que funcione grande parte, o que devemos fazer?
-Ao decorrer da refatoração você se depara com um processo muito complexo que não poderia otimizar, qual a melhorar maneira de prosseguir?
-Como diferenciamos refatoração em linguagens back-end e front-end?
-Podemos dividir a tarefa de refatorar um código?
+EXERCITAR:
+
+1- Por que não refatoramos códigos incorretos? Com por exemplo Abusos de OO? Poque o código que esta incorreto ele não serve,  não funciona , ele é corrigido e não refatorado.
+
+
+2- Se um código se demonstra incompleto, por mais que funcione grande parte, o que devemos fazer? corrigir primeiro e depois refatorar.
+
+
+3 - Ao decorrer da refatoração você se depara com um processo muito  complexo que não poderia otimizar, qual a melhorar maneira de prosseguir? peço ajuda, pesquisar o que eu não conheço pra entender.
+
+
+4- Como diferenciamos refatoração em linguagens back-end e front-end? Não tem tanta diferença, refatorar é a mesma coisa par ambos.
+
+5- Podemos dividir a tarefa de refatorar um código? sim, mas não pode alterar o produto final.
 
 
 PARA O LAR -
 
-Vamos refatorar em sala o projeto do módulo 7. Salve o antigo projeto e identifique as mudanças feitas durante o processo de refatoração.
+Vamos refatorar um código e  identifique as mudanças feitas durante o processo de refatoração.
 
 
 */
+
+let numeroPar = 6;
+if (numeroPar == 7) {
+  console.log("o numero não é par");
+}
+
+//efeito cebola
+
+var Artemiza = {
+  nome: "Artemiza",
+  sobrenome: "Rocha",
+  dependente: [
+    {
+      nome: undefined,
+    },
+  ],
+};
+Artemiza.dependente;
+
+// preciso adequar o código para quem vai ler, conseguir lê, principalmente junior.
+//pensa o que pode melhorar nele
+
+let chuva;
+
+let pessoaGuardaChuva = true;
+if (chuva == true) {
+  //pegar guarda chuva
+}
+//independente de sol ou chuva  vai ser true.

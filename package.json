@@ -1,0 +1,22 @@
+{
+  "name": "on21-imersao-js-s9-refatoracao",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <img src=\"assets/reprograma-fundos-claros.png\" alt=\"logo reprograma\" width=\"500\">\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mizarocha/on21-imersao-js-S9-Refatoracao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mizarocha/on21-imersao-js-S9-Refatoracao/issues"
+  },
+  "homepage": "https://github.com/Mizarocha/on21-imersao-js-S9-Refatoracao#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -28,3 +28,11 @@ Quando o nome de um método não revela qual a sua intenção, deve-se altera-lo
 
 
 */
+let eduardoMedia = 8 + 9 + 10 / 3;
+let mariaMedia = 10 + 6 + 9 / 3;
+
+function media(historia, matemática, português) {
+  return historia + matemática + português / 2;
+}
+media(8, 9, 10);
+media(10, 6, 9);

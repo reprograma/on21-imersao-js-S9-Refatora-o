@@ -1,0 +1,32 @@
+* Salve o antigo projeto e identifique as mudanças feitas durante o processo de refatoração. 
+
+
+
+Identificando as mudanças da minha refatoração!
+
+
+1 - Mudei tudo para o inglês, que é o padrão dos códigos nas empresas.
+
+2 - Mudei o nome da variável de var para LET e nomes também
+
+* Antes era assim:
+   var menu,
+   var escolha,
+  var retornaMenu.
+
+Depois ficou assim:
+  let menuDrink,
+   let select,
+   let backMenu.
+   
+  
+3 - Troquei os nomes da funções para mais ser mais claro na leitura e no entendimento:
+
+* Antes era assim: 
+  function ofertaMenu, 
+  
+  Depois ficou assim: 
+  function menuAvailable
+
+ 
+São mudanças simples e que faz toda diferença na leitura de um código, pois temos que fazer isso para outras desenvolvedores além de nós mesma, para com que conseguem identificar o que esse código faz, chegando a um resultado final que não será alterado. 
