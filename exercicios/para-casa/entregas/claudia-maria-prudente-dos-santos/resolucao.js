@@ -5,44 +5,44 @@ O Usuário deve ter a opção de voltar para o menu após a seleção de uma beb
 const menu = [
   {
     id: 1,
-    nome: "Refrigerante",
-    preco: 3.5,
-    sabor: "Morango",
-    marca: "RefriKeylinha",
+    name: "Refrigerante",
+    price: 3.5,
+    flavour: "Morango",
+    brand: "RefriKeylinha",
   },
   {
     id: 2,
-    nome: "Suco",
-    preco: 2.5,
-    sabor: "Uva",
-    marca: "SuquinhoKeylinha",
+    name: "Suco",
+    price: 2.5,
+    flavour: "Uva",
+    brand: "SuquinhoKeylinha",
   },
   {
     id: 3,
-    nome: "Chá",
-    preco: 3.0,
-    sabor: "Mate",
-    marca: "MateKeylinha",
+    name: "Chá",
+    price: 3.0,
+    flavour: "Mate",
+    brand: "MateKeylinha",
   },
 ];
 function ofertaMenu() {
-  const escolha = Number(
+  const choiceNumber = Number(
     prompt(`Informe o numero que deseja informações:
     1- Refrigerante
     2- Suco
     3- Chá`)
   );
 
-  const itemSelected = menu.find((item) => item.id === escolha);
+  const itemSelected = menu.find((item) => item.id === choiceNumber);
 
   alert(`
-        Nome: ${itemSelected.nome}
-        Preço: ${itemSelected.preco}
-        Sabor: ${itemSelected.sabor}
-        Marca: ${itemSelected.marca}`);
+        Nome: ${itemSelected.name}
+        Preço: ${itemSelected.price}
+        Sabor: ${itemSelected.flavour}
+        Marca: ${itemSelected.brand}`);
 }
 ofertaMenu();
-const retornaMenu = confirm("Deseja retornar ao menu?");
-while (retornaMenu == true) {
+const isOpenMenu = confirm("Deseja retornar ao menu?");
+while (isOpenMenu == true) {
   ofertaMenu();
 }
