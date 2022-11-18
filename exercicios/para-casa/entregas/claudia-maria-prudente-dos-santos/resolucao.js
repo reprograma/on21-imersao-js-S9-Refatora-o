@@ -43,6 +43,6 @@ function ofertaMenu() {
 }
 ofertaMenu();
 const isOpenMenu = confirm("Deseja retornar ao menu?");
-while (isOpenMenu == true) {
+while (isOpenMenu) {
   ofertaMenu();
 }
