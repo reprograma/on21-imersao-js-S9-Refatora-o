@@ -57,4 +57,3 @@ var retornaMenu = confirm("Deseja retornar ao menu?");
     while(retornaMenu == true){
         ofertaMenu();
 }
-

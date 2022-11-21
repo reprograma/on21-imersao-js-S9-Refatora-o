@@ -28,3 +28,14 @@ Quando o nome de um método não revela qual a sua intenção, deve-se altera-lo
 
 
 */
+
+//Tirar similariedades
+let mediaEduardo = 8 + 9 + 10 / 3;
+let mediaMaria = 6 + 8 + 9 / 3;
+
+function media(historia, matematica, geografia) {
+  return (historia + matematica + geografia) / 3;
+}
+
+media(8, 9, 10);
+media(6, 8, 10);
