@@ -57,6 +57,7 @@ function ofertaMenu() {
         Sabor: ${menu[2].sabor}
         Marca: ${menu[2].marca}`);
       break;
+ 
   }
 }
 ofertaMenu();
