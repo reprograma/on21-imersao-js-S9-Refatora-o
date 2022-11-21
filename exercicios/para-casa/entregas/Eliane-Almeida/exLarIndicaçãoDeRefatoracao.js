@@ -31,6 +31,7 @@ var menu = [
 // Adicionr linha em branco
 //Alterar nome da função para o englis e informar de onde é o menu em português 
 // ficaria OfertaDoMenuDeBebida
+// Uso de arrow function
 function ofertaMenu() {
      var escolha = Number(
         prompt(`Informe o numero que deseja informações:
@@ -61,7 +62,7 @@ function ofertaMenu() {
               Sabor: ${menu[2].sabor}
               Marca: ${menu[2].marca}`);
             break;
-        //Acrescentar mais um caso para sair
+        default: 
     }
 }
 //Adicionar nova linha em branco

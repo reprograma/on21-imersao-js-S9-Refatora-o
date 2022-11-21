@@ -27,7 +27,7 @@ var DrinksMenu = [
     },
 ];
 
-function drinksMenuOffer() {
+drinksMenuOffer = () => {
     var select = Number(
         prompt(`Informe o numero que deseja informações:
           1- Refrigerante
@@ -57,8 +57,10 @@ function drinksMenuOffer() {
               Sabor: ${DrinksMenu[2].flavor}
               Marca: ${DrinksMenu[2].brand}`);
             break;
+        default:
+            return "Não existe essa opção no Menu de Drinks"
     }
-}
+};
 
 drinksMenuOffer();
 
