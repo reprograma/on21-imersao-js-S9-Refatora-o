@@ -1,6 +1,5 @@
 1- Por que não refatoramos códigos incorretos? Com por exemplo Abusos de OO?
     Códigos incorretoss nós ajustamos e fazemos ele rodar de  forma correta.
-
 2- Se um código se demonstra incompleto, por mais que funcione grande parte, o que devemos fazer?
     Corrigir e depois finalizar.
 3- Ao decorrer da refatoração você se depara com um processo muito complexo que não poderia otimizar, qual a melhorar maneira de prosseguir?
