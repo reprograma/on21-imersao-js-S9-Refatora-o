@@ -1,12 +1,18 @@
 class MachineBeer {
-  constructor() {}
-
-  menu(id, name, price, flavour, brand) {
+  constructor(id, name, price, flavour, brand) {
     this.id = id;
     this.name = name;
     this.price = price;
     this.flavour = flavour;
     this.brand = brand;
+  }
+}
+class Menu {
+  constructor(machineBeer) {
+    this.machineBeer = machineBeer;
+
+    optionsMenu();
+    if (machineBeer === true) return;
     [
       {
         id: 1,
@@ -31,8 +37,10 @@ class MachineBeer {
       },
     ];
   }
+}
 
-  offerMenu(choice) {
+class OfferMenu {
+  offerMenuBeer(choice) {
     prompt(`What beer do you want? Choose a number!:
       1- Soda,
       2- Juice,
@@ -63,3 +71,9 @@ class MachineBeer {
     }
   }
 }
+
+newBeer = MachineBeer.new();
+newBeer.Menu();
+newBeer.OfferMenu();
+
+console.log(newBeer);
