@@ -1,0 +1,12 @@
+1- Por que não refatoramos códigos incorretos? Com por exemplo Abusos de OO?
+    Códigos incorretoss nós ajustamos e fazemos ele rodar de  forma correta.
+2- Se um código se demonstra incompleto, por mais que funcione grande parte, o que devemos fazer?
+    Corrigir e depois finalizar.
+3- Ao decorrer da refatoração você se depara com um processo muito complexo que não poderia otimizar, qual a melhorar maneira de prosseguir?
+    Quebrar esse processo em partes e refatorá-lo a partir dessas quebras.
+4- Como diferenciamos refatoração em linguagens back-end e front-end?
+    Apesar de refatoração não ter diferença, no front podemos acabar fazendo alterações para o usuario final. 
+    A refatoração no front não se resume apenas a lógica de programação da linguagem,podemos alterar e usar de melhoires práticas no css e html tbm. 
+5- Podemos dividir a tarefa de refatorar um código?
+    Sim! Muitas vezes um código pode ser muito extenso e ao dividi-lo podemos finalizar em menos tempo e com mais asserividade 
+    se tivermos um padrão. 
