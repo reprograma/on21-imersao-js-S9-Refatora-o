@@ -36,6 +36,15 @@ const machineItems = [
          'amount': 6
      },
  ];
- 
- 
+/* function teste (bebida){
+    if (machineItems.map(machineItems => machineItems.name === bebida)){
+        const teste1 = `tudo certo`
+    }
+    else {
+        const teste2 = `turo errado`
+    }
+} 
+
+ console.log(teste('coca-cola'));*/
+
  module.exports = machineItems;

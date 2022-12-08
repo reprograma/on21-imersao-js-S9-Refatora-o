@@ -18,7 +18,7 @@ class Item {
 function addDrink  (drinkName, value) {
   let menuItem = machineItems.find(machineItems => machineItems.name === drinkName);
   let newAmount = menuItem.amount += value;
-  console.log(menuItem);
+  //console.log(menuItem);
   return 'drinks added successfully'
 };
 console.log(addDrink('natural one maçã', 1));
